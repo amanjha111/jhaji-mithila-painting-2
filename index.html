@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mithila Painting Shop</title>
+</head>
+<body>
+    <header>
+        <h1>Jhaji mithila painting store </h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <!-- Add the following code within the body tag, after the painting gallery -->
+<div class="cart-icon" onclick="openCart()">
+    🛒 <span id="cart-count">0</span>
+</div>
+
+<div id="cart-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeCart()">&times;</span>
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items-list"></ul>
+    </div>
+</div>
+
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to our Jhaji mithila painting store</h2>
+        <p>Discover the beauty of Madhubani paintings and bring home the essence of Mithila art.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Painting Gallery</h2>
+        <div class="painting-container">
+            <!-- Add your painting images and details here -->
+            <div class="painting">
+                <img src="IMG-20190502-WA0036.jpg" alt="Painting 1">
+                <p>Beautiful </p>
+                <p>Rs 5000</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+            <div class="painting">
+                <img src="IMG-20190502-WA0021.jpg" alt="Painting 2">
+                <p> jaimaal Scene</p>
+                <p>Rs 4500</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+
+            </div>
+            <!-- Add more paintings as needed -->
+            <div class="painting">
+                <img src="IMG-20190502-WA0031.jpg" alt="Painting 3">
+                <p>Mithila warmala  Scene</p>
+                <p>Rs 5500</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+
+            </div>
+            <div class="painting">
+                <img src="./IMG-20190502-WA0036.jpg" alt="Painting 1">
+                <p>Beautiful </p>
+                <p>Rs 5000</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+            <div class="painting">
+                <img src="./IMG-20190502-WA0036.jpg" alt="Painting 1">
+                <p>Beautiful </p>
+                <p>Rs 5000</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+            <div class="painting">
+                <img src="IMG-20190502-WA0036.jpg" alt="Painting 1">
+                <p>Beautiful </p>
+                <p>Rs 5000</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+            <div class="painting">
+                <img src="IMG-20190502-WA0036.jpg" alt="Painting 1">
+                <p>Beautiful </p>
+                <p>Rs 5000</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+            <div class="painting">
+                <img src="IMG-20190502-WA0036.jpg" alt="Painting 1">
+                <p>Beautiful </p>
+                <p>Rs 5000</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+            <div class="painting">
+                <img src="IMG-20190502-WA0036.jpg" alt="Painting 1">
+                <p>Beautiful </p>
+                <p>Rs 5000</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+            <div class="painting">
+                <img src="IMG-20190502-WA0036.jpg" alt="Painting 1">
+                <p>Beautiful </p>
+                <p>Rs 5000</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+            <div class="painting">
+                <img src="IMG-20190502-WA0036.jpg" alt="Painting 1">
+                <p>Beautiful </p>
+                <p>Rs 5000</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+            <div class="painting">
+                <img src="IMG-20190502-WA0036.jpg" alt="Painting 1">
+                <p>Beautiful </p>
+                <p>Rs 5000</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+            <div class="painting">
+                <img src="IMG-20190502-WA0036.jpg" alt="Painting 1">
+                <p>Beautiful </p>
+                <p>Rs 5000</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+            <div class="painting">
+                <img src="IMG-20190502-WA0036.jpg" alt="Painting 1">
+                <p>Beautiful </p>
+                <p>Rs 5000</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+            <div class="painting">
+                <img src="IMG-20190502-WA0036.jpg" alt="Painting 1">
+                <p>Beautiful </p>
+                <p>Rs 5000</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+            <div class="painting">
+                <img src="IMG-20190502-WA0036.jpg" alt="Painting 1">
+                <p>Beautiful </p>
+                <p>Rs 5000</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+            <div class="painting">
+                <img src="IMG-20190502-WA0036.jpg" alt="Painting 1">
+                <p>Beautiful </p>
+                <p>Rs 5000</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+            <div class="painting">
+                <img src="IMG-20190502-WA0036.jpg" alt="Painting 1">
+                <p>Beautiful </p>
+                <p>Rs 5000</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+            <div class="painting">
+                <img src="IMG-20190502-WA0036.jpg" alt="Painting 1">
+                <p>Beautiful </p>
+                <p>Rs 5000</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn about the rich history and culture behind Mithila paintings. Our artists are dedicated to preserving this traditional art form.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have any questions or inquiries? Feel free to reach out to us:</p>
+        <address>
+            Email: ajha2135@gmail.com<br>
+            Phone: 8287422051
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mithila Painting Shop</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
